@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "data": {
+    "token": "card_token_xyz",
+    "pan": "8600****5678",
+    "expiry": "12/28",
+    "card_type": "uzcard",
+    "holder_name": "JOHN DOE",
+    "is_active": true
+  }
+}

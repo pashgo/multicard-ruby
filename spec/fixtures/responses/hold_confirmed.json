@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "data": {
+    "id": "hold-id-789",
+    "status": "confirmed",
+    "amount": 500000,
+    "invoice_id": "HOLD-001"
+  }
+}

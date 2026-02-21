@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "data": {
+    "uuid": "inv-uuid-123",
+    "checkout_url": "https://checkout.multicard.uz/pay/inv-uuid-123",
+    "short_link": "https://mc.uz/abc123",
+    "invoice_id": "ORD-001",
+    "amount": 500000,
+    "status": "created"
+  }
+}

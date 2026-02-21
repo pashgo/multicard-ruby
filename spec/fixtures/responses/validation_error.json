@@ -1,0 +1,7 @@
+{
+  "success": false,
+  "error": {
+    "code": "ERROR_FIELDS",
+    "details": "Invalid store_id"
+  }
+}

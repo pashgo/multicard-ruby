@@ -1,0 +1,65 @@
+inherit_from: []
+
+AllCops:
+  TargetRubyVersion: 3.0
+  NewCops: enable
+  SuggestExtensions: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: true
+
+Metrics/MethodLength:
+  Max: 25
+
+Metrics/ClassLength:
+  Max: 150
+
+Metrics/BlockLength:
+  Exclude:
+    - "spec/**/*"
+    - "*.gemspec"
+
+Metrics/AbcSize:
+  Max: 25
+
+Metrics/ParameterLists:
+  Max: 8
+  CountKeywordArgs: false
+
+Metrics/CyclomaticComplexity:
+  Max: 10
+
+Layout/LineLength:
+  Max: 120
+
+Naming/FileName:
+  Exclude:
+    - "Gemfile"
+    - "Rakefile"
+
+Naming/MethodParameterName:
+  AllowedNames:
+    - a
+    - b
+    - e
+    - i
+    - x
+    - y
+
+Naming/PredicateMethod:
+  Enabled: false
+
+Gemspec/DevelopmentDependencies:
+  EnforcedStyle: gemspec
+
+RSpec/ExampleLength:
+  Max: 20
+
+RSpec/MultipleExpectations:
+  Max: 5
+
+RSpec/MultipleMemoizedHelpers:
+  Max: 10

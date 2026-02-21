@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "data": {
+    "id": "payout-id-101",
+    "status": "created",
+    "amount": 100000,
+    "card_number": "8600****9999"
+  }
+}

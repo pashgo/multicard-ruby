@@ -1,0 +1,7 @@
+{
+  "success": true,
+  "data": {
+    "session_id": "session-abc-123",
+    "url": "https://checkout.multicard.uz/card/bind/session-abc-123"
+  }
+}

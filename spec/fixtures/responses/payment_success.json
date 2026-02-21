@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "data": {
+    "uuid": "pay-uuid-456",
+    "status": "confirmed",
+    "amount": 500000,
+    "invoice_id": "ORD-001",
+    "store_id": 100,
+    "card_pan": "8600****1234",
+    "card_token": "token_abc",
+    "payment_time": "2025-01-15T12:00:00Z",
+    "receipt_url": "https://multicard.uz/receipt/pay-uuid-456"
+  }
+}
